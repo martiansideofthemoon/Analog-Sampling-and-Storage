@@ -1,0 +1,12 @@
+ghdl -a ADCC.vhd
+ghdl -a Testbench_ADCC.vhd
+ghdl -m Testbench_ADCC
+ghdl -a SMC.vhd
+ghdl -a Testbench_SMC.vhd
+ghdl -m Testbench_SMC
+ghdl -a CCU.vhd
+ghdl -a TopLevel.vhd
+ghdl -a Testbench_TopLevel.vhd
+ghdl -m Testbench_TopLevel
+ghdl -a Testbench_Clock_Counter.vhd
+ghdl -m Testbench_Clock_Counter
